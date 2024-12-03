@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Aditya Sharma – Personal Website</title>
+    <meta
+      name="description"
+      content="My name is Aditya Sharma, I am a full stack web developer currently in my final year of my Computer Science
+       degree at Technocrats institue of Technology Bhopal . I am a passionate developer and love to learn new technologies
+        and apply them to solve real world problems."
+    />
+
+    <link rel="icon" type="image/png" href="/icon/32x32.png" />
+
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icon/180x180.png" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="Aditya Sharma– Personal Website"
+    />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="theme-color" content="#f6d4b1" />
+
+    <meta property="og:title" content="Aditya Sharma – Personal Website" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://edh.dev/icon/og-img1.png" />
+    <meta
+      name="og:description"
+      content="My name is Aditya Sharma, I am a full stack web developer currently in my final year of my Computer Science
+      degree at Technocrats institue of Technology Bhopal . I am a passionate developer and love to learn new technologies
+       and apply them to solve real world problems."
+    />
+    <link rel="manifest" href="/manifest.json" />
+    <script type="module" src="/src/main.ts"></script>
+  </head>
+
+  <body>
+    <div id="home"></div>
+
+    <canvas class="webgl"></canvas>
+
+    <div id="hero-backup">
+      <h3>Hi there, I’m</h3>
+      <h1>Aditya</h1>
+      <ul>
+        <li>Full Stack developer</li>
+      </ul>
+    </div>
+
+    <nav>
+      <div class="menu-btn">
+        <button class="btn" onclick="toggleMenu()">
+          <svg width="16" height="16">
+            <rect class="st0" width="16" height="3.2" />
+            <rect y="6.4" class="st0" width="16" height="3.2" />
+            <rect y="12.8" class="st0" width="16" height="3.2" />
+          </svg>
+        </button>
+        <div style="display: flex">
+          <a
+            class="btn"
+            href="https://www.linkedin.com/in/adi0706"
+            target="_blank"
+          >
+            <svg width="16" height="16">
+              <path
+                d="M0.1,2c0-1,0.8-1.8,1.9-1.8c1,0,1.8,0.9,1.8,1.8c0,1-0.8,1.9-1.8,1.9C0.9,3.9,0.1,3.1,0.1,2z M0.1,5h3.7v9.8
+            H0.1V5z"
+              />
+              <path
+                d="M15.9,8.5v6.2h-3.5V9.4c0-0.9-0.6-1.6-1.5-1.6c-0.8,0-1.4,0.6-1.4,1.5v5.5H5.8V5h3.7v1
+            c0.6-0.7,1.6-1.2,2.8-1.2C14.4,4.7,15.9,6.3,15.9,8.5z"
+              />
+            </svg>
+          </a>
+          
+          <a
+            class="btn"
+            href="https://github.com/kashyapAdi"
+            target="_blank"
+          >
+            <svg width="16" height="16">
+              <path
+                d="M10.6,12.9c0-1-0.3-1.6-0.7-2c2.4-0.3,4.9-1.1,4.9-5.2c0-1.1-0.4-2.1-1.1-2.9c0.1-0.3,0.5-1.3-0.1-2.8
+            c0,0-0.9-0.3-3,1.1c-1.7-0.5-3.6-0.5-5.4,0c-2-1.4-3-1.1-3-1.1C1.6,1.4,2,2.5,2.1,2.8C1.4,3.5,1,4.6,1,5.6c0,4.1,2.5,5,4.9,5.3
+            c-0.4,0.4-0.6,0.9-0.7,1.4c-0.6,0.3-2.2,0.7-3.1-0.9c0,0-0.6-1-1.6-1.1c0,0-1.1,0-0.1,0.7c0,0,0.7,0.3,1.1,1.6c0,0,0.6,2.1,3.6,1.5
+            c0,0.9,0,1.8,0,1.8h5.3C10.6,15.9,10.6,14.4,10.6,12.9z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="menu-body" onclick="closeMenu()">
+        <a href="#home" onclick="closeMenu()">Home</a>
+        <a href="#aboutMe" onclick="closeMenu()">About</a>
+        <a href="#projects" onclick="closeMenu()">Projects</a>
+        <a href="#contact" onclick="closeMenu()">Contact</a>
+      </div>
+
+      <div id="tip-scroll">Scroll &#8595;</div>
+    </nav>
+
+    <main>
+      <section>
+        <h1 id="aboutMe">Hi there</h1>
+        <p>
+          "My name is Aditya Sharma, I am a full stack web developer currently in my final year of my Computer Science
+          degree at Technocrats institue of Technology Bhopal . I am a passionate developer and love to learn new technologies
+           and apply them to solve real world problems."
+        <p>
+          In addition to my love of technology , I am also interested
+          in education, sports and politics.
+        </p>
+
+        <p>
+          Below are details of some of the projects I have developed.
+         
+        </p>
+      </section>
+
+      <section>
+        <h1 id="projects">Projects</h1>
+        <hr />
+        <h2>Color bits</h2>
+        <h3>2024-2025</h3>
+        <ul class="skills">
+          <li>Next.js</li>
+          <li>TypeScript</li>
+         <li>TailwindCSS</li>
+          <li>Web Dev</li>
+        </ul>
+        <p>
+          Color bits is a website that allows users to create and share color palettes.
+          It is built using Next.js and TypeScript, and uses TailwindCSS for styling.
+          The website is hosted on Vercel.
+
+        </p>
+      
+        <p><a href="https://css-helper-two.vercel.app/">Colorbits.app</a></p>
+        <br />
+        <div class="image">
+          <img
+            src="/src/img/Colorbits.png"
+            width="100%"
+            alt="ColorBits screenshot"
+            loading="lazy"
+            style="aspect-ratio: 2443 / 1576"
+          />
+        </div>
+        <hr />
+        <h2>Portfolio (This Website)</h2>
+        <h3>2023</h3>
+        <ul class="skills">
+          <li>TypeScript</li>
+          <li>Threejs</li>
+        </ul>
+        <p>
+          This was a project I built in TypeScript and THREE.js, which is a JavaScript library for creating 3D graphics.
+        </p>
+        
+        <div class="image">
+          <img
+            src="/src/img/portfolio.png"
+            width="100%"
+            alt="portfolio screenshot"
+            loading="lazy"
+            style="aspect-ratio: 2443 / 1576"
+          />
+        </div>
+        <hr />
+        <h2>netflix landing page</h2>
+        <h3>2023</h3>
+        <ul class="skills">
+          <li>Html,Css</li>
+         
+        </ul>
+        <p>
+          when i started learning web development i made this project to learn html and css.
+        </p>
+        <p><a href="https://netflix-ebon-alpha.vercel.app/">Netfli.app</a></p>
+        <div class="image">
+          <img
+            src="/src/img/netflix.png"
+            width="100%"
+            alt="netflix landing page screenshot"
+            loading="lazy"
+            style="aspect-ratio: 800 / 600"
+          />
+        </div>
+        <hr />
+
+        <h2>Weather App</h2>
+        <h3>2023</h3>
+        <ul class="skills">
+          <li>Html,Css</li>
+          <li>JavaScript</li>
+        </ul>
+        <p>
+          This was a project I built in JavaScript, which is a programming language that is used to create interactive web pages.
+        </p>
+        <p><a href="https://kashyapadi.github.io/mausam-update/">Weather.app</a></p>
+        <div class="image">
+          <img
+            src="/src/img/Weather.png"
+            width="100%"
+            alt="Weather App screenshot"
+            loading="lazy"
+            style="aspect-ratio: 1769 / 1229"
+          />
+        </div>
+        <hr />
+        <p>
+          This was all the project i have work on so far.
+        </p>
+      </section>
+
+      <section>
+        <h1 id="contact">Contact</h1>
+        <p style="text-align: center">
+          Reach out on
+          <a href="https://www.linkedin.com/in/adi0706"
+            ><u><b>LinkedIn</b></u></a
+          >
+        </p>
+      </section>
+    </main>
+
+    <input type="text" id="textarea" readonly />
+    <div id="loading">
+      <h2>Booting...</h2>
+      <div id="loading-bar">
+        <div id="loading-bar-progress"></div>
+      </div>
+      <div id="loading-items">Starting...</div>
+    </div>
+    <footer>
+      <div>Developed by Aditya Sharma.</div>
+      
+      <div>COPYRIGHT © 2024-2025 Aditya Sharma.</div>
+    </footer>
+    <script>
+      function closeMenu() {
+        document.getElementsByTagName("nav")[0].classList.remove(["active"]);
+      }
+
+      function toggleMenu() {
+        const nav = document.getElementsByTagName("nav")[0];
+        if (nav.classList.contains("active")) {
+          nav.classList.remove(["active"]);
+        } else {
+          nav.classList.add("active");
+        }
+      }
+    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-EDNKHGV4HB"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-EDNKHGV4HB");
+    </script>
+  </body>
+</html>
