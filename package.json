@@ -1,10 +1,13 @@
 {
   "author": {
-    "name": "aditya Sharma",
+    "name": "Aditya Sharma",
+    "url": "https://github.com/kashyapAdi/Portfolio"
+  },
    
   },
   "repository": {
     "type": "git",
+     "url": "git+https://github.com/kashyapAdi/Portfolio"
     
   },
   "license": "MIT",
