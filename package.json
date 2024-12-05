@@ -1,14 +1,14 @@
 {
   "author": {
-    "name": "Ed Hinrichsen",
-    "url": "https://www.edwardh.io"
+    "name": "aditya Sharma",
+   
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edhinrichsen/retro-computer-website.git"
+    "url": "git+https://github.com/kashyapAdi/Portfolio
   },
   "license": "MIT",
-  "name": "retro-computer-website",
+  "name": "portfolio",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
